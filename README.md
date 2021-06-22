@@ -53,7 +53,7 @@ You can add maven surefire plugin to trigger the testng.xml file from pom.xml or
  
  
 ## Documentation
-[Documentation](C:/Users/asus/eclipse-workspace/KodoAutomationAssignment/doc/index.html)
+[Documentation] Refer the index.html under the doc folder of the project.
 
   
 ---
