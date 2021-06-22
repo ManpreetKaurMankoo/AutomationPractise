@@ -65,10 +65,11 @@ Pre-requisites:
 
 - Java 8 or higher should be installed and its home and path environment variables set in the system
 
+- Open command prompt and go to the path where the project is available (After downloading/cloning it)
+
 To run tests, run the following command in command prompt:
 
 ```bash
-  mvn clean
   mvn compile
   mvn test
 ```
