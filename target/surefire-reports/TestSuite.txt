@@ -1,8 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.093 s <<< FAILURE! - in TestSuite
-com.assigment.tests.HomePageTest.verifyAutoSuggestionAndRelatedProductsTest_TC_009  Time elapsed: 8.587 s  <<< FAILURE!
+Tests run: 22, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 233.101 s <<< FAILURE! - in TestSuite
+com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002  Time elapsed: 20.066 s  <<< FAILURE!
+java.lang.AssertionError: All the expected searched products were supposed to be related to the searched product type only but were not
+	at com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002(DressPageTest.java:65)
+
+com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002  Time elapsed: 37.708 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@class='right-block']//a[@class='product-name'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'K10185', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31696a1dd35f572adbc9235fed648390
+	at com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002(DressPageTest.java:61)
+
+com.assigment.tests.HomePageTest.verifyAutoSuggestionAndRelatedProductsTest_TC_009  Time elapsed: 2.798 s  <<< FAILURE!
 java.lang.AssertionError: Some of the auto suggested products are not related to the given keyword
 	at com.assigment.tests.HomePageTest.verifyAutoSuggestionAndRelatedProductsTest_TC_009(HomePageTest.java:124)
+
+com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006  Time elapsed: 5.067 s  <<< FAILURE!
+java.util.UnknownFormatConversionException: Conversion = '%'
+	at com.assigment.tests.SearchPageTest.lambda$verifySearchedProductsAreSortedByPriceTest_TC_006$1(SearchPageTest.java:213)
+	at com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006(SearchPageTest.java:215)
+
+com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006  Time elapsed: 8.328 s  <<< FAILURE!
+java.util.UnknownFormatConversionException: Conversion = '%'
+	at com.assigment.tests.SearchPageTest.lambda$verifySearchedProductsAreSortedByPriceTest_TC_006$1(SearchPageTest.java:213)
+	at com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006(SearchPageTest.java:215)
 

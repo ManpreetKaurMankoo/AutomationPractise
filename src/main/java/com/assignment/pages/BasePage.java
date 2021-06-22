@@ -111,7 +111,7 @@ public class BasePage {
 		WebElement element = ExplicitWaitFactory.executeExplicitWaitForElement(by, waitStrategy);
 		element.click();
 		FrameworkLogManager.getLogtype(elementName + " is clicked");
-		Uninterruptibles.sleepUninterruptibly(FrameworkConstants.getExplicitPause(), TimeUnit.MILLISECONDS);
+		Uninterruptibles.sleepUninterruptibly(FrameworkConstants.getExplicitPause(), TimeUnit.SECONDS);
 		return element.getAttribute(propertyName);
 	}
 

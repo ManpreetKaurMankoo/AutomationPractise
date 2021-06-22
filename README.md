@@ -27,18 +27,24 @@ You can add maven surefire plugin to trigger the testng.xml file from pom.xml or
 ---
 **How the framework works?**
 
-- AnnotationTransformer class which implements IAnnotationTransformer is reponsible for reading the data from TestInformation sheet under data folder. It sets the annotation of the test methods like description, enabled, priority, dataprovider values read from the excel.
+- The tests are triggered through the testng.xml file (via IDE) which also has details about the listeners and dataprovider in order to trigger them.
+Alternatively, Maven build tool calls the testng.xml file through surefire plugin (provided in the pom.xml file) to run the tests via command prompt.
 
-- Things to note: Test name in the first column of the excel sheet should match with atleast an @Test available in test classes mentioned in the testng.xml
+- MethodInterceptor class which implements IMethodInterceptor intercepts the existing test methods and changes the annotation value at the run time which is fetched from the TestInformation excel sheet (header part).
+
+- AnnotationTransformer class which implements IAnnotationTransformer is reponsible for reading the data from TestInformation sheet under data folder. It sets the annotation of the test methods like testname, description, execute, dataprovider values read from the excel.
+Things to note: Test name in the first column of the excel sheet should match with at least an @Test available in test classes mentioned in the testng.xml
 
 - All the tests will have the same dataprovider in the DataProviderUtilities class. For example, the 'verifySearchPageFieldIsDisplayedTest_TC_008' in TestInformation sheet will take the data from SearchData sheet which has the row where the testname is 'verifySearchPageFieldIsDisplayedTest_TC_008'.
-
-- If there are multiple rows with 'verifySearchPageFieldIsDisplayedTest_TC_008' as testname in the DataProvider sheet (SearchData), framework will consider it as this as multiple iterations for a test case.
-
-- MethodInterceptor class which implements IMethodInterceptor intercepts the existing test methods and changes the annotation value at the run time.
+If there are multiple rows with 'verifySearchPageFieldIsDisplayedTest_TC_008' as testname in the DataProvider sheet (SearchData), framework will consider it as this as multiple iterations for a test case.
 
 - Listeners class is responsible for listening to the tests, capturing the events and logging the pass, fail, skip logs with or without screenshot.
 
+- User defined exceptions are implemented for throwing run time exceptions.
+
+- The tests triggered through testng.xml file call the web pages class methods to fetch and interact with the web elements. After the values are retrieved and required operations are performed, the tests perform the assertions.
+
+- Each test result along with the logs and screenshots (if configured as Yes) is captured and shown through Extent Reports after all the tests are run.
 ---
 
 
@@ -61,7 +67,7 @@ You can add maven surefire plugin to trigger the testng.xml file from pom.xml or
 
 Pre-requisites:
 
-- Maven should be installed (Preferrably 3.6.3) and its home and path environment variables set in the system
+- Maven should be installed (Preferably 3.6.3) and its home and path environment variables set in the system
 
 - Java 8 or higher should be installed and its home and path environment variables set in the system
 

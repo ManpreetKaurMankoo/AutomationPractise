@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="22" passed="17" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-22T11:31:09Z" name="Suite" finished-at="2021-06-22T11:31:30Z" duration-ms="20973">
+  <suite started-at="2021-06-22T19:18:16Z" name="Suite" finished-at="2021-06-22T19:22:07Z" duration-ms="231627">
     <groups>
     </groups>
-    <test started-at="2021-06-22T11:31:09Z" name="Test" finished-at="2021-06-22T11:31:30Z" duration-ms="20973">
+    <test started-at="2021-06-22T19:18:16Z" name="Test" finished-at="2021-06-22T19:22:07Z" duration-ms="231627">
       <class name="com.assigment.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T11:31:10Z" name="setUp" finished-at="2021-06-22T11:31:21Z" duration-ms="11232" status="PASS">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:10Z" name="setUp" finished-at="2021-06-22T19:19:20Z" duration-ms="10340" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5949eba8]]>
+                <![CDATA[[Ljava.lang.Object;@3abd581e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAutoSuggestionAndRelatedProductsTest_TC_009(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T11:31:21Z" name="verifyAutoSuggestionAndRelatedProductsTest_TC_009" description="Verify whether the auto suggestion is displayed and suggests only related products as per the keyword entered" finished-at="2021-06-22T11:31:29Z" duration-ms="8293" status="FAIL">
+        <test-method signature="verifyAutoSuggestionAndRelatedProductsTest_TC_009(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:20Z" name="verifyAutoSuggestionAndRelatedProductsTest_TC_009" description="Verify whether the auto suggestion is displayed and suggests only related products as per the keyword entered" finished-at="2021-06-22T19:19:23Z" duration-ms="2519" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,704 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAutoSuggestionAndRelatedProductsTest_TC_009 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T11:31:30Z" name="tearDown" finished-at="2021-06-22T11:31:30Z" duration-ms="701" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:23Z" name="tearDown" finished-at="2021-06-22T19:19:24Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:24Z" name="setUp" finished-at="2021-06-22T19:19:40Z" duration-ms="16436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4d4d8fcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:24Z" name="setUp" finished-at="2021-06-22T19:19:39Z" duration-ms="15565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@610db97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductElementsAreDisplayedTest_TC_003(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:39Z" name="verifyProductElementsAreDisplayedTest_TC_003" description="Verify whether the searched product&#039;s image and price are shown in the search results" finished-at="2021-06-22T19:19:43Z" duration-ms="3650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=price, attributeValue=, index=, replacingValue=, testname=verifyProductElementsAreDisplayedTest_TC_003, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Printed Chiffon Dress, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductElementsAreDisplayedTest_TC_003 -->
+        <test-method signature="verifyProductElementsAreDisplayedTest_TC_003(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:40Z" name="verifyProductElementsAreDisplayedTest_TC_003" description="Verify whether the searched product&#039;s image and price are shown in the search results" finished-at="2021-06-22T19:19:43Z" duration-ms="3077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=image, attributeValue=, index=, replacingValue=, testname=verifyProductElementsAreDisplayedTest_TC_003, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Printed Chiffon Dress, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductElementsAreDisplayedTest_TC_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:43Z" name="tearDown" finished-at="2021-06-22T19:19:44Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:43Z" name="tearDown" finished-at="2021-06-22T19:19:44Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:44Z" name="setUp" finished-at="2021-06-22T19:19:53Z" duration-ms="8678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3fabf088]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:44Z" name="setUp" finished-at="2021-06-22T19:19:55Z" duration-ms="10655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6f0628de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchedProductsWithProductNameTest_TC_001(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:53Z" name="verifySearchedProductsWithProductNameTest_TC_001" description="Verify whether all the products related to the searched product name are only displayed" finished-at="2021-06-22T19:19:55Z" duration-ms="2528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=, testname=verifySearchedProductsWithProductNameTest_TC_001, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Printed Summer Dress, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsWithProductNameTest_TC_001 -->
+        <test-method signature="verifySearchedProductsWithProductNameTest_TC_001(java.util.Map)[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:55Z" name="verifySearchedProductsWithProductNameTest_TC_001" description="Verify whether all the products related to the searched product name are only displayed" finished-at="2021-06-22T19:19:58Z" duration-ms="3649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=, testname=verifySearchedProductsWithProductNameTest_TC_001, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Printed Chiffon Dress, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsWithProductNameTest_TC_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:55Z" name="tearDown" finished-at="2021-06-22T19:19:56Z" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.HomePageTest@568bf312]" started-at="2021-06-22T19:19:58Z" name="tearDown" finished-at="2021-06-22T19:19:59Z" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.assigment.tests.HomePageTest -->
+      <class name="com.assigment.tests.DressPageTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:16Z" name="setUp" finished-at="2021-06-22T19:18:32Z" duration-ms="15314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1dfd5f51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:16Z" name="setUp" finished-at="2021-06-22T19:18:32Z" duration-ms="15463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3c321bdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:16Z" name="setUp" finished-at="2021-06-22T19:18:31Z" duration-ms="15142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@24855019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchedProductsWithProductTypeTest_TC_002(java.util.Map)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:31Z" name="verifySearchedProductsWithProductTypeTest_TC_002" description="Verify whether the searched products are related to the given category, sub-category, or sub-category type" finished-at="2021-06-22T19:19:09Z" duration-ms="37889" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=1, replacingValue=, testname=verifySearchedProductsWithProductTypeTest_TC_002, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Women, productType=product category}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@class='right-block']//a[@class='product-name'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'K10185', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31696a1dd35f572adbc9235fed648390]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@class='right-block']//a[@class='product-name'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'K10185', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31696a1dd35f572adbc9235fed648390
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.assignment.factories.ExplicitWaitFactory.executeExplicitWaitForElements(ExplicitWaitFactory.java:68)
+at com.assignment.pages.BasePage.getTextOfAllElements(BasePage.java:245)
+at com.assignment.pages.SearchPage.getSearchedProductsByName(SearchPage.java:83)
+at com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002(DressPageTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsWithProductTypeTest_TC_002 -->
+        <test-method signature="verifySearchedProductsWithProductTypeTest_TC_002(java.util.Map)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:32Z" name="verifySearchedProductsWithProductTypeTest_TC_002" description="Verify whether the searched products are related to the given category, sub-category, or sub-category type" finished-at="2021-06-22T19:18:47Z" duration-ms="15746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=2, replacingValue=, testname=verifySearchedProductsWithProductTypeTest_TC_002, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=product sub-category type}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsWithProductTypeTest_TC_002 -->
+        <test-method signature="verifySearchedProductsWithProductTypeTest_TC_002(java.util.Map)[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:32Z" name="verifySearchedProductsWithProductTypeTest_TC_002" description="Verify whether the searched products are related to the given category, sub-category, or sub-category type" finished-at="2021-06-22T19:18:52Z" duration-ms="19858" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=2, replacingValue=, testname=verifySearchedProductsWithProductTypeTest_TC_002, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=Dresses, productType=product sub-category}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[All the expected searched products were supposed to be related to the searched product type only but were not]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: All the expected searched products were supposed to be related to the searched product type only but were not
+at com.assigment.tests.DressPageTest.verifySearchedProductsWithProductTypeTest_TC_002(DressPageTest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsWithProductTypeTest_TC_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:47Z" name="tearDown" finished-at="2021-06-22T19:18:48Z" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:18:52Z" name="tearDown" finished-at="2021-06-22T19:18:52Z" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.DressPageTest@29f69090]" started-at="2021-06-22T19:19:09Z" name="tearDown" finished-at="2021-06-22T19:19:10Z" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assigment.tests.DressPageTest -->
+      <class name="com.assigment.tests.SearchPageTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:19:59Z" name="setUp" finished-at="2021-06-22T19:20:11Z" duration-ms="12228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@12f3afb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:19:59Z" name="setUp" finished-at="2021-06-22T19:20:08Z" duration-ms="8496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e392345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:19:59Z" name="setUp" finished-at="2021-06-22T19:20:11Z" duration-ms="11571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4ced35ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:08Z" name="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004" description="Verify whether required pop-up is shown on clicking the buttons within the product container" finished-at="2021-06-22T19:20:19Z" duration-ms="10981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=Quick, attributeValue=, index=, replacingValue=fancybox-item fancybox-close, testname=verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004 -->
+        <test-method signature="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:11Z" name="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004" description="Verify whether required pop-up is shown on clicking the buttons within the product container" finished-at="2021-06-22T19:20:21Z" duration-ms="9918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=Add to Wishlist, attributeValue=, index=, replacingValue=fancybox-inner, testname=verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004 -->
+        <test-method signature="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:11Z" name="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004" description="Verify whether required pop-up is shown on clicking the buttons within the product container" finished-at="2021-06-22T19:20:22Z" duration-ms="10287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=Add to cart, attributeValue=, index=, replacingValue=icon-ok, testname=verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:19Z" name="tearDown" finished-at="2021-06-22T19:20:19Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:21Z" name="tearDown" finished-at="2021-06-22T19:20:21Z" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:22Z" name="tearDown" finished-at="2021-06-22T19:20:22Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:22Z" name="setUp" finished-at="2021-06-22T19:20:33Z" duration-ms="11070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2c22a348]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:22Z" name="setUp" finished-at="2021-06-22T19:20:32Z" duration-ms="10212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@74d7184a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:22Z" name="setUp" finished-at="2021-06-22T19:20:34Z" duration-ms="11631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7bd69e82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductDescriptionPageIsDisplayedTest_TC_005(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:32Z" name="verifyProductDescriptionPageIsDisplayedTest_TC_005" description="Verify whether Product Description Page is displayed on clicking the given product element links" finished-at="2021-06-22T19:20:40Z" duration-ms="7447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=More, attributeValue=, index=, replacingValue=, testname=verifyProductDescriptionPageIsDisplayedTest_TC_005, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDescriptionPageIsDisplayedTest_TC_005 -->
+        <test-method signature="verifyProductDescriptionPageIsDisplayedTest_TC_005(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:33Z" name="verifyProductDescriptionPageIsDisplayedTest_TC_005" description="Verify whether Product Description Page is displayed on clicking the given product element links" finished-at="2021-06-22T19:20:42Z" duration-ms="8286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=Colour, attributeValue=, index=, replacingValue=, testname=verifyProductDescriptionPageIsDisplayedTest_TC_005, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDescriptionPageIsDisplayedTest_TC_005 -->
+        <test-method signature="verifyProductDescriptionPageIsDisplayedTest_TC_005(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:34Z" name="verifyProductDescriptionPageIsDisplayedTest_TC_005" description="Verify whether Product Description Page is displayed on clicking the given product element links" finished-at="2021-06-22T19:20:42Z" duration-ms="8525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=Image, attributeValue=, index=, replacingValue=, testname=verifyProductDescriptionPageIsDisplayedTest_TC_005, execute=yes, propertyName=, searchPageField=, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDescriptionPageIsDisplayedTest_TC_005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:40Z" name="tearDown" finished-at="2021-06-22T19:20:41Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:42Z" name="tearDown" finished-at="2021-06-22T19:20:42Z" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:42Z" name="tearDown" finished-at="2021-06-22T19:20:43Z" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:43Z" name="setUp" finished-at="2021-06-22T19:20:55Z" duration-ms="11646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6831d8fd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:43Z" name="setUp" finished-at="2021-06-22T19:20:53Z" duration-ms="10068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@51b01960]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRequiredSearchPageViewIsSelectedTest_TC_007(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:53Z" name="verifyRequiredSearchPageViewIsSelectedTest_TC_007" description="Verify whether the search results are displayed in the selected view" finished-at="2021-06-22T19:21:11Z" duration-ms="17811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=selected, index=, replacingValue=list, testname=verifyRequiredSearchPageViewIsSelectedTest_TC_007, execute=yes, propertyName=class, searchPageField=, sortByOption=, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredSearchPageViewIsSelectedTest_TC_007 -->
+        <test-method signature="verifyRequiredSearchPageViewIsSelectedTest_TC_007(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:20:55Z" name="verifyRequiredSearchPageViewIsSelectedTest_TC_007" description="Verify whether the search results are displayed in the selected view" finished-at="2021-06-22T19:21:12Z" duration-ms="17575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=selected, index=, replacingValue=grid, testname=verifyRequiredSearchPageViewIsSelectedTest_TC_007, execute=yes, propertyName=class, searchPageField=, sortByOption=, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredSearchPageViewIsSelectedTest_TC_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:11Z" name="tearDown" finished-at="2021-06-22T19:21:12Z" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:12Z" name="tearDown" finished-at="2021-06-22T19:21:13Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:13Z" name="setUp" finished-at="2021-06-22T19:21:24Z" duration-ms="11387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@27dc79f7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:13Z" name="setUp" finished-at="2021-06-22T19:21:24Z" duration-ms="10901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6b85300e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchPageFieldIsDisplayedTest_TC_008(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:24Z" name="verifySearchPageFieldIsDisplayedTest_TC_008" description="Verify whether the required fields are shown on the Search Results page" finished-at="2021-06-22T19:21:27Z" duration-ms="3036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=left_column, testname=verifySearchPageFieldIsDisplayedTest_TC_008, execute=yes, propertyName=, searchPageField=Other information on the left hand side container, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageFieldIsDisplayedTest_TC_008 -->
+        <test-method signature="verifySearchPageFieldIsDisplayedTest_TC_008(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:24Z" name="verifySearchPageFieldIsDisplayedTest_TC_008" description="Verify whether the required fields are shown on the Search Results page" finished-at="2021-06-22T19:21:27Z" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=uniform-selectProductSort, testname=verifySearchPageFieldIsDisplayedTest_TC_008, execute=yes, propertyName=, searchPageField=Sort by drop-down option, sortByOption=, browser=chrome, keyword=T-shirts, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageFieldIsDisplayedTest_TC_008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:27Z" name="tearDown" finished-at="2021-06-22T19:21:28Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:27Z" name="tearDown" finished-at="2021-06-22T19:21:28Z" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:28Z" name="setUp" finished-at="2021-06-22T19:21:37Z" duration-ms="8812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3aaf4f07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:28Z" name="setUp" finished-at="2021-06-22T19:21:37Z" duration-ms="8517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5cbf9e9f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchedProductsAreSortedByNameTest_TC_006(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:37Z" name="verifySearchedProductsAreSortedByNameTest_TC_006" description="Verify whether the searched results are sorted as per the selected Name Sort By option" finished-at="2021-06-22T19:21:43Z" duration-ms="6012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=name:desc, testname=verifySearchedProductsAreSortedByNameTest_TC_006, execute=yes, propertyName=, searchPageField=, sortByOption=Product name from Z to A, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsAreSortedByNameTest_TC_006 -->
+        <test-method signature="verifySearchedProductsAreSortedByNameTest_TC_006(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:37Z" name="verifySearchedProductsAreSortedByNameTest_TC_006" description="Verify whether the searched results are sorted as per the selected Name Sort By option" finished-at="2021-06-22T19:21:43Z" duration-ms="5828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=name:asc, testname=verifySearchedProductsAreSortedByNameTest_TC_006, execute=yes, propertyName=, searchPageField=, sortByOption=Product name from A to Z, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsAreSortedByNameTest_TC_006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:43Z" name="tearDown" finished-at="2021-06-22T19:21:43Z" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:43Z" name="tearDown" finished-at="2021-06-22T19:21:43Z" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:43Z" name="setUp" finished-at="2021-06-22T19:21:58Z" duration-ms="14724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@18e8473e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:43Z" name="setUp" finished-at="2021-06-22T19:21:58Z" duration-ms="14892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5a2f016d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchedProductsAreSortedByPriceTest_TC_006(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:58Z" name="verifySearchedProductsAreSortedByPriceTest_TC_006" description="Verify whether the searched results are sorted as per the selected Price Sort By option" finished-at="2021-06-22T19:22:03Z" duration-ms="5072" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=price:asc, testname=verifySearchedProductsAreSortedByPriceTest_TC_006, execute=yes, propertyName=, searchPageField=, sortByOption=Lowest price first, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.UnknownFormatConversionException">
+            <message>
+              <![CDATA[Conversion = '%']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.UnknownFormatConversionException: Conversion = '%'
+at java.base/java.util.Formatter.checkText(Formatter.java:2732)
+at java.base/java.util.Formatter.parse(Formatter.java:2718)
+at java.base/java.util.Formatter.format(Formatter.java:2655)
+at java.base/java.util.Formatter.format(Formatter.java:2609)
+at java.base/java.lang.String.format(String.java:3302)
+at com.assigment.tests.SearchPageTest.lambda$verifySearchedProductsAreSortedByPriceTest_TC_006$1(SearchPageTest.java:213)
+at org.assertj.core.api.WritableAssertionInfo.overridingErrorMessage(WritableAssertionInfo.java:60)
+at org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Failures.java:148)
+at org.assertj.core.internal.Failures.failure(Failures.java:102)
+at org.assertj.core.internal.Objects.assertEqual(Objects.java:332)
+at org.assertj.core.api.AbstractAssert.isEqualTo(AbstractAssert.java:360)
+at org.assertj.core.api.AbstractIterableAssert.isEqualTo(AbstractIterableAssert.java:3431)
+at org.assertj.core.api.AbstractListAssert.isEqualTo(AbstractListAssert.java:276)
+at org.assertj.core.api.ListAssert.isEqualTo(ListAssert.java:83)
+at com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006(SearchPageTest.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.UnknownFormatConversionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsAreSortedByPriceTest_TC_006 -->
+        <test-method signature="verifySearchedProductsAreSortedByPriceTest_TC_006(java.util.Map)[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:21:58Z" name="verifySearchedProductsAreSortedByPriceTest_TC_006" description="Verify whether the searched results are sorted as per the selected Price Sort By option" finished-at="2021-06-22T19:22:06Z" duration-ms="8185" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productElement=, attributeValue=, index=, replacingValue=price:desc, testname=verifySearchedProductsAreSortedByPriceTest_TC_006, execute=yes, propertyName=, searchPageField=, sortByOption=Highest price first, browser=chrome, keyword=Dresses, productType=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.UnknownFormatConversionException">
+            <message>
+              <![CDATA[Conversion = '%']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.UnknownFormatConversionException: Conversion = '%'
+at java.base/java.util.Formatter.checkText(Formatter.java:2732)
+at java.base/java.util.Formatter.parse(Formatter.java:2718)
+at java.base/java.util.Formatter.format(Formatter.java:2655)
+at java.base/java.util.Formatter.format(Formatter.java:2609)
+at java.base/java.lang.String.format(String.java:3302)
+at com.assigment.tests.SearchPageTest.lambda$verifySearchedProductsAreSortedByPriceTest_TC_006$1(SearchPageTest.java:213)
+at org.assertj.core.api.WritableAssertionInfo.overridingErrorMessage(WritableAssertionInfo.java:60)
+at org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Failures.java:148)
+at org.assertj.core.internal.Failures.failure(Failures.java:102)
+at org.assertj.core.internal.Objects.assertEqual(Objects.java:332)
+at org.assertj.core.api.AbstractAssert.isEqualTo(AbstractAssert.java:360)
+at org.assertj.core.api.AbstractIterableAssert.isEqualTo(AbstractIterableAssert.java:3431)
+at org.assertj.core.api.AbstractListAssert.isEqualTo(AbstractListAssert.java:276)
+at org.assertj.core.api.ListAssert.isEqualTo(ListAssert.java:83)
+at com.assigment.tests.SearchPageTest.verifySearchedProductsAreSortedByPriceTest_TC_006(SearchPageTest.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.UnknownFormatConversionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedProductsAreSortedByPriceTest_TC_006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:22:03Z" name="tearDown" finished-at="2021-06-22T19:22:04Z" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigment.tests.SearchPageTest@ca263c2]" started-at="2021-06-22T19:22:07Z" name="tearDown" finished-at="2021-06-22T19:22:07Z" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assigment.tests.SearchPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

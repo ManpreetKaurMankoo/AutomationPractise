@@ -141,7 +141,6 @@ public final class SearchPageTest extends BaseTest {
 				.enterSearchKeyword(data.get("keyword"))
 				.clickSearchBtn();
 		assertThat(searchPLP.getViewAttributeValue(data.get("replacingValue"), data.get("propertyName")))
-		.withFailMessage(() -> String.format("%s% is not selected", data.get("replacingValue")))
 		.isEqualTo(data.get("attributeValue"));
 	}
 

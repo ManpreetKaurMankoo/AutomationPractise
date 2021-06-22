@@ -30,9 +30,19 @@ public final class SearchPage extends BasePage {
 	private String searchedProductsByName = "//*[@class='right-block']//a[@class='product-name']";
 	private String relatedProductsByName = "//div[@class='right-block']//a[";
 	private String productContainerButton = "//*[contains(text(), '%s%')]";
+//	private String productContainerButton = "//*[contains(@class='%s%')]";
+	// //*[@class='button ajax_add_to_cart_button btn btn-default'] - add to cart
+	// //*[contains(@class,'add_to_cart')]
+	
+	// //*[@class='addToWishlist wishlistProd_6']
+	//*[contains(@class,'addToWish')]
+	
+	// //*[@class='quick-view'] -- quick view
+	//*[contains(@class,'quick-view')]
 	private String popUpOrPDPage = "//*[@class='%s%']";
 	private String productContainerLink = "//*[@class='%s%']";
-	private String viewLink = "%s%";
+//	private String viewLink = "%s%";
+	private String viewLink = "//*[@id='%s%']";
 
 	public SearchPage clearSearchField() {
 		clearText(By.id(searchTextField), WaitStrategy.CLICKABLE, "Search text field");
@@ -105,7 +115,7 @@ public final class SearchPage extends BasePage {
 	
 	public String getViewAttributeValue(String replacingValue, String propertyName) {
 		String newXpathForViewLink = DynamicXpathUtilities.getXpath(viewLink, replacingValue);
-		return getAttribute(By.id(newXpathForViewLink), WaitStrategy.CLICKABLE, "Selected " + replacingValue + " view", propertyName);		
+		return getAttribute(By.xpath(newXpathForViewLink), WaitStrategy.CLICKABLE, "Selected " + replacingValue + " view", propertyName);		
 	}
 
 	public SearchPage clickOnSortByOption() {

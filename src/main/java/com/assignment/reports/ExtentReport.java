@@ -80,7 +80,7 @@ public final class ExtentReport {
 
 	/**
 	 * Logs the authors details in the authors view in the extent report.
-	 * Gives an clear idea of Authors v/s Percentage success metrics
+	 * Gives a clear idea of Authors v/s Percentage success metrics
 	 * 
 	 * @param authors
 	 * Authors who created a particular test case
@@ -93,7 +93,7 @@ public final class ExtentReport {
 
 	/**
 	 * Adds the category a particular test case belongs to.
-	 * Gives an clear idea of Group v/s Percentage success metrics.
+	 * Gives a clear idea of Group v/s Percentage success metrics.
 	 * 
 	 * @param categories category a particular test case belongs to.
 	 */

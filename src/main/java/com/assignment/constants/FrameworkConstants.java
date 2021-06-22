@@ -31,7 +31,8 @@ public final class FrameworkConstants {
 	private static final String DATAITERATIONSHEET = "SearchData";
 
 	private static final int EXPLICITWAIT = 20;
-	private static final int PAUSE = 10000;
+	private static final int PAUSE = 15;
+	private static final int UNINTERRUPTIBLESWAIT = 5;
 
 	public static int getExplicitwait() {
 		return EXPLICITWAIT;
@@ -86,6 +87,10 @@ public final class FrameworkConstants {
 
 	public static int getExplicitPause() {
 		return PAUSE;
+	}
+
+	public static int getUninterruptiblesWait() {
+		return UNINTERRUPTIBLESWAIT;
 	}
 	
 }

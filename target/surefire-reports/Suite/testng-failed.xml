@@ -8,6 +8,13 @@
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)" verbose="0">
     <classes>
+      <class name="com.assigment.tests.SearchPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySearchedProductsAreSortedByPriceTest_TC_006" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.assigment.tests.SearchPageTest -->
       <class name="com.assigment.tests.HomePageTest">
         <methods>
           <include name="setUp"/>
@@ -15,6 +22,13 @@
           <include name="verifyAutoSuggestionAndRelatedProductsTest_TC_009" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.assigment.tests.HomePageTest -->
+      <class name="com.assigment.tests.DressPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySearchedProductsWithProductTypeTest_TC_002" invocation-numbers="1 0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assigment.tests.DressPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -35,7 +35,7 @@ public class BaseTest {
 		@SuppressWarnings("unchecked")
 		Map<String, String> map = (Map<String, String>)data[0];
 		Driver.intializeDriver(map.get("browser"));
-		DriverManager.getDriver().manage().window().maximize();				 
+		DriverManager.getDriver().manage().window().maximize();
 	}
 
 	/**
