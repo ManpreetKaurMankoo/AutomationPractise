@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.assignment.listeners.ListenersClass" />
+		<listener
+			class-name="com.assignment.listeners.MethodInterceptor" />
+		<listener
+			class-name="com.assignment.listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test thread-count="1" name="Test" parallel="methods">
+		<classes>
+			<class name="com.assigment.tests.BaseTest" />
+			<class name="com.assigment.tests.DressPageTest" />
+			<class name="com.assigment.tests.HomePageTest" />
+			<class name="com.assigment.tests.SearchPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

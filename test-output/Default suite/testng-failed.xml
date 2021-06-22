@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.assigment.tests.SearchPageTest">
+        <methods>
+          <include name="verifyRequiredSearchPageViewIsSelectedTest_TC_007"/>
+          <include name="setUp"/>
+          <include name="verifyProductDescriptionPageIsDisplayedTest_TC_005"/>
+          <include name="tearDown"/>
+          <include name="verifyPopUpIsShownOnClickingProdContainerBtnTest_TC_004"/>
+          <include name="verifySearchPageFieldIsDisplayedTest_TC_008"/>
+          <include name="verifySearchedProductsAreSortedByNameTest_TC_006"/>
+          <include name="verifySearchedProductsAreSortedByPriceTest_TC_006"/>
+        </methods>
+      </class> <!-- com.assigment.tests.SearchPageTest -->
+      <class name="com.assigment.tests.DressPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySearchedProductsWithProductTypeTest_TC_002"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.assigment.tests.DressPageTest -->
+      <class name="com.assigment.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAutoSuggestionAndRelatedProductsTest_TC_009"/>
+          <include name="verifySearchedProductsWithProductNameTest_TC_001"/>
+          <include name="verifyProductElementsAreDisplayedTest_TC_003"/>
+        </methods>
+      </class> <!-- com.assigment.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
